@@ -14,6 +14,7 @@
 		DB5CB3D61AC06704000FCF8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5CB3D41AC06704000FCF8A /* LaunchScreen.xib */; };
 		DB5CB3E21AC06704000FCF8A /* dragNcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CB3E11AC06704000FCF8A /* dragNcodeTests.m */; };
 		DB5CB3ED1AC069F0000FCF8A /* MainDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CB3EC1AC069F0000FCF8A /* MainDragViewController.m */; };
+		DBC6E8B21AC1361F00AD6C7D /* WriteCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6E8B11AC1361F00AD6C7D /* WriteCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DB5CB3E11AC06704000FCF8A /* dragNcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragNcodeTests.m; sourceTree = "<group>"; };
 		DB5CB3EB1AC069F0000FCF8A /* MainDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDragViewController.h; sourceTree = "<group>"; };
 		DB5CB3EC1AC069F0000FCF8A /* MainDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDragViewController.m; sourceTree = "<group>"; };
+		DBC6E8B01AC1361F00AD6C7D /* WriteCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteCodeViewController.h; sourceTree = "<group>"; };
+		DBC6E8B11AC1361F00AD6C7D /* WriteCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DB5CB3C71AC06704000FCF8A /* AppDelegate.m */,
 				DB5CB3EB1AC069F0000FCF8A /* MainDragViewController.h */,
 				DB5CB3EC1AC069F0000FCF8A /* MainDragViewController.m */,
+				DBC6E8B01AC1361F00AD6C7D /* WriteCodeViewController.h */,
+				DBC6E8B11AC1361F00AD6C7D /* WriteCodeViewController.m */,
 				DB5CB3CF1AC06704000FCF8A /* Main.storyboard */,
 				DB5CB3D21AC06704000FCF8A /* Images.xcassets */,
 				DB5CB3D41AC06704000FCF8A /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5CB3C81AC06704000FCF8A /* AppDelegate.m in Sources */,
+				DBC6E8B21AC1361F00AD6C7D /* WriteCodeViewController.m in Sources */,
 				DB5CB3C51AC06704000FCF8A /* main.m in Sources */,
 				DB5CB3ED1AC069F0000FCF8A /* MainDragViewController.m in Sources */,
 			);
@@ -415,6 +421,7 @@
 				DB5CB3E71AC06704000FCF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB5CB3E81AC06704000FCF8A /* Build configuration list for PBXNativeTarget "dragNcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				DB5CB3EA1AC06704000FCF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

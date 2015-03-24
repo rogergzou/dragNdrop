@@ -13,9 +13,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *codeBlock;
 @property (weak, nonatomic) IBOutlet UIButton *funcA;
 
-@property (weak, nonatomic) IBOutlet UIButton *d1;
-@property (weak, nonatomic) IBOutlet UIButton *f1;
-
 
 @end
 
@@ -24,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.codeBlock setTitle:self.codeBlockString forState:UIControlStateNormal];
     [self.codeBlock addTarget:self action:@selector(imageMoved:withEvent:) forControlEvents:UIControlEventTouchDragInside];
     [self.codeBlock addTarget:self action:@selector(imageMoved:withEvent:) forControlEvents:UIControlEventTouchDragOutside];
     //[self.codeBlock addTarget:self action:@selector(itEnded) forControlEvents:UIControlEventTouchDragExit];
@@ -59,7 +57,7 @@
 }
 
 - (IBAction)finishedDrag:(UIButton *)sender {
-    NSLog(@"I'm an idiot");
+    //NSLog(@"I'm an idiot");
     if (CGRectIntersectsRect(sender.frame, self.funcA.frame)){
         sender.hidden = true;
     }

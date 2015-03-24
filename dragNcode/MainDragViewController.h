@@ -10,4 +10,6 @@
 
 @interface MainDragViewController : UIViewController
 
+@property (nonatomic, strong) NSString *codeBlockString;
+
 @end
