@@ -1,5 +1,6 @@
 # Xcode
 #
+*.mov
 build/
 *.pbxuser
 !default.pbxuser
