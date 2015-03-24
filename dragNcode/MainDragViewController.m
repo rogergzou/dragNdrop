@@ -22,6 +22,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.codeBlock setTitle:self.codeBlockString forState:UIControlStateNormal];
+    CGSize stringsize = [self.codeBlockString sizeWithAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Courier New" size:14]}];
+    [self.codeBlock setFrame:CGRectMake(64, 120, stringsize.width, stringsize.height)];
+    //[self.codeBlock sizeToFit];
     [self.codeBlock addTarget:self action:@selector(imageMoved:withEvent:) forControlEvents:UIControlEventTouchDragInside];
     [self.codeBlock addTarget:self action:@selector(imageMoved:withEvent:) forControlEvents:UIControlEventTouchDragOutside];
     //[self.codeBlock addTarget:self action:@selector(itEnded) forControlEvents:UIControlEventTouchDragExit];

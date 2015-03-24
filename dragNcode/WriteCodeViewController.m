@@ -32,7 +32,7 @@
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView
 {
     if (textView == self.codeTextView) {
-        NSLog(@"yup");
+        //NSLog(@"yup");
         if ([textView.text isEqualToString:@"Tap here to write code"]) {
             textView.text = @"";
         }
