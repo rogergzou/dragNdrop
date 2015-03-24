@@ -63,6 +63,7 @@
     //NSLog(@"I'm an idiot");
     if (CGRectIntersectsRect(sender.frame, self.funcA.frame)){
         sender.hidden = true;
+        [self performSegueWithIdentifier:@"functionA" sender:sender];
     }
 }
 
